@@ -17,7 +17,7 @@
 @interface SliderViewController : UIViewController
 
 
-//Note the weak property (Preventing cycles)
+//Note the weak property (It prevents cycles)
 @property (nonatomic, weak) id<SliderViewControllerDelegate> delegate;
 
 @end

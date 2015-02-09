@@ -42,7 +42,7 @@
 
 - (IBAction)donePressed:(id)sender {
     
-    UIColor *rgb = [UIColor colorWithRed:redSlider.value/255.0 green:greenSlider.value/255.0 blue:blueSlider.value/255.0 alpha:1];
+    UIColor *rgb = [UIColor colorWithRed:(redSlider.value/255.0) green:(greenSlider.value/255.0) blue: (blueSlider.value/255.0) alpha:1];
     
     NSLog(@"Red: %f, Green: %f, Blue: %f", redSlider.value, greenSlider.value, blueSlider.value);
     
